@@ -1,10 +1,18 @@
 ![Clinical Agent：围绕同一位患者，持续整理与查证](assets/cover.svg)
 
-# Clinical Agent
+# Clinical Agent · 病例工作台
 
-Clinical Agent 是面向精神科病例讨论的辅助工作台。它帮助医生整理患者信息、查阅医学资料，并在继续提问时沿用已经确认的内容。在线工作台名为 **SuperCare AI**。
+Clinical Agent 主要面向低年资及非精神科医生，帮助整理患者信息、查阅医学资料，并在继续提问时沿用已经确认的内容。工作台原名 **SuperCare AI**，与这里介绍的是同一个项目，临床判断始终由医生负责。
 
-[打开工作台](https://dominicspace.com/apps/clinical/index.html) · [阅读设计思路](docs/product-design.md) · [看评测案例](https://dominicspace.com/apps/evaluation/index.html?space=history&view=story) · [关于作者](https://github.com/DominicHongliDing)
+[看病例讨论示例](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/clinical/index.html) · [阅读设计思路](docs/product-design.md) · [看评测案例](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story) · [关于作者](https://github.com/DominicHongliDing)
+
+## 第一次看，建议这样体验
+
+1. [先看三步示例](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/clinical/index.html#example)：从一段不完整的虚构病例开始，看怎样整理已知信息、查资料、说明依据。
+2. [浏览工作台](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/clinical/index.html?mode=browse)：无需填写 API Key。点击「使用虚构教学病例」，可以先检查材料，再导入病例。
+3. 想发送问题时，再通过「连接模型」配置自己的 API Key。也可以直接[看一次已有测试](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story)，检查 AI 有没有采用用户更正的信息。
+
+示例页说明产品思路，不展示现场生成的回答；已有测试保留原始问答与处理过程。
 
 ## 项目从哪里来
 
@@ -64,6 +72,6 @@ flowchart LR
 
 ## 体验与项目范围
 
-可以直接浏览工作台界面，生成回答需要配置个人模型 API Key。在线体验与本地实现的范围有所不同，医生审核流程等设计详见[产品设计](docs/product-design.md)。演示请使用虚构或脱敏材料，生成内容需要医生复核。
+可以先看示例、浏览工作台，生成回答时再配置个人模型 API Key。在线体验与本地实现的范围有所不同，医生审核流程等设计详见[产品设计](docs/product-design.md)。演示请使用虚构或脱敏材料，生成内容需要医生复核。
 
 这个仓库提供产品介绍与设计说明，尚未发布 Clinical 应用源码。
