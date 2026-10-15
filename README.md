@@ -4,7 +4,7 @@
 
 Clinical Agent 主要面向低年资及非精神科医生，帮助整理患者信息、查阅医学资料，并在继续提问时沿用已经确认的内容。工作台原名 **SuperCare AI**，与这里介绍的是同一个项目，临床判断始终由医生负责。
 
-[看病例讨论示例](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/clinical/index.html) · [阅读设计思路](docs/product-design.md) · [看评测案例](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story) · [关于作者](https://github.com/DominicHongliDing)
+[看病例讨论示例](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/clinical/index.html) · [核心案例](docs/cases/patient-correction.md) · [阅读设计思路](docs/product-design.md) · [完整 PRD](docs/PRD.md) · [看评测案例](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story) · [关于作者](https://github.com/DominicHongliDing)
 
 ## 第一次看，建议这样体验
 
@@ -31,6 +31,12 @@ Clinical Agent 主要面向低年资及非精神科医生，帮助整理患者�
 | 查指南和用药资料 | 检索医学资料，展示引用与适用范围 | 来源是否可靠，能否用于当前患者 |
 | 准备进一步问诊或病例讨论 | 整理待补充问题、风险线索和参考方向 | 哪些应优先核查，哪些仍然未知 |
 | 复核 AI 结果 | 一起呈现回答、引用和医生反馈 | 采用、修改，或进一步复核 |
+
+## 一个具体问题：更正之后，讨论有没有跟上
+
+虚构病例的历史测试里，用户把“两周”更正为“三天”，请 AI 总结，得到的却又是通用的补充信息提示。[核心案例](docs/cases/patient-correction.md)对照原始记录，说明怎样把这类反馈拆成信息更新、任务完成、页面展示和验收要求。
+
+这条失败尚无修复后的同条件复测结果。案例保留已观察的问题和待核查原因；更完整的产品范围、输入输出与异常要求见 [14 节 PRD 立项评审稿](docs/PRD.md)。
 
 ## 从整理病例到继续追问
 
