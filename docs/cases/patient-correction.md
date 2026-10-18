@@ -2,7 +2,7 @@
 
 围绕同一患者讨论时，补充或更正的信息需要进入后续回答。本例以病程从“两周”改为“三天”的对话为例，说明信息更新、来源保留与医生确认的设计。
 
-[返回项目](../../README.md) · [产品设计](../product-design.md) · [完整 PRD](../PRD.md) · [历史测试](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story)
+[返回项目](../../README.md) · [产品设计](../product-design.md) · [完整 PRD](../PRD.md) · [历史测试](https://dominicspace.com/apps/evaluation/index.html?space=history&view=story)
 
 材料来自虚构教学病例的实际历史测试，保留了失败回答。修复后按相同条件重测的结果尚待补齐。
 
@@ -17,7 +17,7 @@
 
 > 当前问题临床信息不足，暂不调用 RAG。请补充症状、病程、风险、用药或需要决策的问题。
 
-这次回答没有完成更正后的总结，也未写出具体病程。[完整记录](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story)与 [EVO 原文摘录](https://github.com/DominicHongliDing/Agent-EVO/blob/main/docs/cases/evidence/clinical-correction.json)保留了对话和执行依据。
+这次回答没有完成更正后的总结，也未写出具体病程。[完整记录](https://dominicspace.com/apps/evaluation/index.html?space=history&view=story)与 [EVO 原文摘录](https://github.com/DominicHongliDing/Agent-EVO/blob/main/docs/cases/evidence/clinical-correction.json)保留了对话和执行依据。
 
 ## 更正后的回答应怎样处理
 

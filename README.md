@@ -6,7 +6,7 @@ Clinical Agent 面向低年资及非精神科医生，辅助整理患者信息�
 
 当前提供在线演示与产品设计文档，尚未公开 Clinical 应用源码，也未开展真实临床试点。临床判断由医生负责。
 
-[在线示例与工作台](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/clinical/index.html) · [产品设计](docs/product-design.md) · [完整 PRD](docs/PRD.md)
+[在线示例与工作台](https://dominicspace.com/apps/clinical/index.html) · [产品设计](docs/product-design.md) · [完整 PRD](docs/PRD.md)
 
 ## 主要用途
 
@@ -38,7 +38,7 @@ flowchart LR
 
 用户把病程从“两周”更正为“三天”，接着要求总结。案例围绕这条对话，说明新旧信息的使用规则、患者自述的标记，以及后续回答的检查方法。
 
-[阅读核心案例](docs/cases/patient-correction.md) · [查看对应历史测试](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/evaluation/index.html?space=history&view=story)
+[阅读核心案例](docs/cases/patient-correction.md) · [查看对应历史测试](https://dominicspace.com/apps/evaluation/index.html?space=history&view=story)
 
 这次虚构病例测试中，回答重复了通用补充信息提示，未完成总结。案例保留原始失败，修复后按相同条件重测的结果尚待补齐。
 
@@ -58,8 +58,8 @@ flowchart LR
 
 ## 在线体验
 
-1. [查看三步示例](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/clinical/index.html#example)：了解病例整理、资料核对与回答展示。
-2. [浏览工作台](https://dominicspace-agent-showcase.peterzhukejie2020.chatgpt.site/apps/clinical/index.html?mode=browse)：无需 API Key，点击「使用虚构教学病例」可先检查材料再导入。
+1. [查看三步示例](https://dominicspace.com/apps/clinical/index.html)：了解病例整理、资料核对与回答展示。
+2. [浏览工作台](https://dominicspace.com/apps/clinical/index.html?mode=browse)：无需 API Key，点击「使用虚构教学病例」可先检查材料再导入。
 3. 实际发送问题时，通过「连接模型」配置个人 API Key。
 
 示例说明设计，已有测试保留实际问答和处理过程。体验请使用虚构或脱敏材料，生成内容需医生复核。
