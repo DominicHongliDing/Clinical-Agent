@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-25",
+  "scope": "Public summary of local engineering and website checks; not independent clinical validation",
+  "source_visibility": "Raw local runtime records and database are not included in the public repository",
+  "local_baseline": {
+    "source_sha256": "18b325293c61c5ad2dc8144beab406ad88e51ee82a40d3931403a046882c0fd0",
+    "synthetic_cases": 6,
+    "skills": [
+      "case_structuring",
+      "diagnostic_differential"
+    ],
+    "skill_version": "0.4",
+    "answer_contract_version": "v4",
+    "retrieval_policy_version": "v3",
+    "metrics": {
+      "sample_count": 12,
+      "method": "descriptive_small_sample_nearest_rank",
+      "completion": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "persistence_match": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "explicit_skill_loaded": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "task_mode_match": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "structured_details_exported": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "substantive_fields_complete": {
+        "numerator": 12,
+        "denominator": 12,
+        "value": 1.0
+      },
+      "submitted_quote_match": {
+        "numerator": 14,
+        "denominator": 14,
+        "value": 1.0
+      },
+      "latency_ms": {
+        "p50": 27685,
+        "p95": 69389,
+        "max": 69389,
+        "observations": 12
+      },
+      "clinical_support_rate": null,
+      "wrong_population_rate": null,
+      "clinical_review_status": "pending_independent_clinician_review"
+    }
+  },
+  "deterministic_tests": {
+    "passed": 679,
+    "source_log_sha256": "3d8a8a56fdb8cc0a142b2c7be75394db32b9cb29bbdb32f8ea2f31e1d783f23d"
+  },
+  "website": {
+    "domain": "https://dominicspace.com",
+    "published": true,
+    "synthetic_cases": 3,
+    "actual_saved_answers": 6,
+    "answer_and_citation_equality": true,
+    "paid_model_calls_in_this_website_sync": 0,
+    "typescript": "passed",
+    "vite_build": "passed",
+    "adapter_unit_fixture_checks": 14,
+    "limitations": [
+      "live generation continues to use existing BYOK gateway, not local adaptive backend",
+      "records are browser-session data, not shared server database",
+      "no new paid-provider generation performed",
+      "real microphone and attachment upload not re-tested"
+    ],
+    "downloadable_build": {
+      "file": "supercare-web-20261025.zip",
+      "sha256": "127c3597e8a8382583d529f61038bac520d3eac3888b4ca3f7e5fb2cb6c38c22",
+      "bytes": 166185,
+      "static_files": 4,
+      "tag": "website-2026.10.25"
+    }
+  },
+  "public_sample_answer_hashes": [
+    {
+      "sample_id": "1-case_structuring",
+      "answer_sha256": "5bb68034f6e78849d17facd3841d98a8d471ce8fb04e9b36b241741247ca6d25"
+    },
+    {
+      "sample_id": "1-diagnostic_differential",
+      "answer_sha256": "6a58d258688b1ec2b44dc9bb5fec49a7050e9c2effdc0d41a06a1c9da9bec6dd"
+    },
+    {
+      "sample_id": "2-case_structuring",
+      "answer_sha256": "8e09a6df06355ffe9958e249e5516b627c3acf900298b4006a3945e03cfb46d9"
+    },
+    {
+      "sample_id": "2-diagnostic_differential",
+      "answer_sha256": "b51d5f1d664945a646fae64ee8c9fc64dcde367a94b8732a105184edfa1a682a"
+    },
+    {
+      "sample_id": "3-case_structuring",
+      "answer_sha256": "1b1afe6ae51eb85c8331fb772f45af7df8d0742ffcde9ac35b3a3d36f53da598"
+    },
+    {
+      "sample_id": "3-diagnostic_differential",
+      "answer_sha256": "53db2a2e1f1c93d98cc8c988ac7d97e48ce2bde18d987712a3f9e64979c51656"
+    }
+  ],
+  "independent_clinician_review": "pending",
+  "rag_independent_labels": {
+    "queries": 20,
+    "query_passage_pairs": 140,
+    "adjudicated": 0,
+    "clinical_metrics": null
+  },
+  "application_source_public": false
+}
